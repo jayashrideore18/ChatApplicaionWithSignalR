@@ -61,7 +61,6 @@ namespace chatAppllicationSignalR_19_09_2020
         public override System.Threading.Tasks.Task OnDisconnected(bool stopCalled)
         {
             string count = "NA";
-            string msg = "";
 
             string clientId = Context.ConnectionId;
             string[] Exceptional = new string[1];

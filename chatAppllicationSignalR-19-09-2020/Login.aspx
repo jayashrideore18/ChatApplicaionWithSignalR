@@ -47,7 +47,6 @@
                
             </div>
             <!-- /.login-box-body -->
-        </div>
     </form>
 <script src="Scripts/jquery-3.4.1.min.js"></script>
 <script src="Scripts/bootstrap.min.js"></script>

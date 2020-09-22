@@ -59,16 +59,14 @@ namespace chatAppllicationSignalR_19_09_2020
         public string GetUserImage(string username)
         {
             string RetimgName = "images/dummy.png";
-            try
-            {
+            
                 string query = "select photo from tbl_Users where userName='" + username + "'";
                 string ImageName = ConnC.GetColumnVal(query, "photo");
 
                 if (ImageName != "")
                     RetimgName = "images/" + ImageName;
-            }
-            catch (Exception ex)
-            { }
+            
+           
             return RetimgName;
         }
 
